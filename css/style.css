@@ -5,15 +5,54 @@ h1 {
 }
 
 h3 {
-  color:rgb(197, 185, 154);
+  color: rgb(197, 185, 154);
 }
 
 .first-title {
-   color: blue;
-   font-family: 'Times New Roman', Times, serif;
+  color: blue;
+  font-family: "Times New Roman", Times, serif;
 }
 
 #youtube-link {
   color: salmon;
   font-size: 30px;
+}
+
+.random h1 {
+  color: chartreuse;
+}
+
+.random li {
+  color: rgb(38, 56, 33);
+}
+
+.gallery h2 {
+  color: pink;
+}
+
+.gallery .gall-class {
+  color: rgb(27, 194, 27);
+  list-style: square;
+}
+
+.random .gall-class {
+  list-style: none;
+}
+
+.red-stuff li:nth-child(3) {
+  color: red;
+}
+
+h1 {
+  color: cornflowerblue;
+}
+
+h2 {
+  color: darkred;
+  font-size: 30px;
+}
+
+button {
+  padding: 50px 20px 10px 0px;
+  background-color: red;
 }
