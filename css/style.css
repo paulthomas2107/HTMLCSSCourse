@@ -1,95 +1,102 @@
-/*
-h1 {
-  color: red;
-  font-size: 40px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h3 {
-  color: rgb(197, 185, 154);
-}
-
-.first-title {
-  color: blue;
-  font-family: "Times New Roman", Times, serif;
-}
-
-#youtube-link {
-  color: salmon;
-  font-size: 30px;
-}
-
-.random h1 {
-  color: chartreuse;
-}
-
-.random li {
-  color: rgb(38, 56, 33);
-}
-
-.gallery h2 {
-  color: pink;
-}
-
-.gallery .gall-class {
-  color: rgb(27, 194, 27);
-  list-style: square;
-}
-
-.random .gall-class {
-  list-style: none;
-}
-
-.red-stuff li:nth-child(3) {
-  color: red;
-}
-
-h1 {
-  color: cornflowerblue;
-}
-
-h2 {
-  color: darkred;
-  font-size: 30px;
-}
-
-button {
-  padding: 50px 50px 10px 30px;
-  background-color: red;
-}
-
-div {
-  background-color: bisque;
-  width: 100%;
-  padding: 20px;
-  margin-top: 20px;
-  border: 5px solid yellow;
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-button {
-  padding: 2rem 4rem;
-}
-
-button:hover {
-  background:pink;
-}
-
-button:focus {  
-  background: greenyellow;
-}
-
-input:focus {
-  background: greenyellow;
-}
-
-*/
-
 html {
   font-size: 62.5%;
+}
+
+.clear {
+  clear: both;
+}
+
+h1 {
+  font-size: 2.8rem;
+}
+
+h2 {
+  font-size: 3.6rem;
+  padding: 5rem 0rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 2.4rem;
+}
+h3 {
+  font-size: 2.8rem;
+}
+button {
+  font-size: 1.8rem;
+}
+
+nav {
+  background: rgb(61, 81, 102);
+  color: white;
+  padding: 3rem;
+}
+
+nav h1 {
+  float: left;
+}
+
+nav ul {
+  float: right;
+  list-style: none;
+}
+
+nav li {
+  float: left;
+  margin: 0rem 4rem;
+}
+.hero-section {
+  background-image: url("/images/brooke-lark-M4E7X3z80PQ-unsplash.jpg");
+  height: 30rem;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding-top: 10rem;
+  text-shadow: 3px 3px 3px black;
+}
+.hero-section button {
+  margin-top: 1rem;
+  padding: 2rem 6rem;
+  background: rgb(65, 140, 184);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.form-section {
+  text-align: center;
+}
+
+form {
+}
+
+form input,
+form label,
+form textarea {
+  display: block;
+  font-size: 2.4rem;
+}
+
+form input,
+form textarea {
+  margin: 2rem auto;
+  width: 50%;
+}
+
+form button {
+  margin-bottom: 10rem;
+  padding: 1rem 4rem;
+  background-color: rgb(65, 140, 184);
+  border: none;
+  color: white;
+  cursor: pointer;
+  width: 50%;
 }
