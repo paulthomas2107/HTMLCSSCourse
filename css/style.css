@@ -71,13 +71,25 @@ div {
   padding: 0;
   box-sizing: border-box;
 }
+
+button {
+  padding: 2rem 4rem;
+}
+
+button:hover {
+  background:pink;
+}
+
+button:focus {  
+  background: greenyellow;
+}
+
+input:focus {
+  background: greenyellow;
+}
+
 */
 
 html {
   font-size: 62.5%;
-}
-
-button {
-  margin: 20rem;
-  padding: 2rem 4rem;
 }
